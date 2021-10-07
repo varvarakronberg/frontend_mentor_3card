@@ -29,5 +29,3 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - [React](https://reactjs.org/) - JS library
-
-https://varvarakronberg.github.io/frontend_mentor_3card/
