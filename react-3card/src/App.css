@@ -1,0 +1,153 @@
+/* # Front-end Style Guide 
+## Layout The designs were created to the following widths: 
+- Mobile: 375px 
+- Desktop: 1440px 
+## Colors 
+### Primary 
+Bright orange: hsl(31, 77%, 52%) 
+Dark cyan: hsl(184, 100%, 22%) 
+Very dark cyan: hsl(179, 100%, 13%) 
+### Neutral 
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75) 
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%) 
+## Typography 
+### Body Copy - Font size: 15px 
+### Font 
+- Family: [Lexend Deca](https: //fonts.google.com/specimen/Lexend+Deca)
+    - Weights                                                                     : 400 
+    - Family: [Big Shoulders Display](https: //fonts.google.com/specimen/Big+Shoulders+Display)
+        - Weights                                                                 : 700
+ */
+
+
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    height          : 100%;
+    margin          : 0;
+    box-sizing      : border-box;
+    font-family     : 'Lexend Deca', sans-serif;
+}
+
+.App {
+    margin        : auto;
+    display       : flex;
+    flex-direction: column;
+}
+
+
+.description {
+    color      : hsla(0, 0%, 100%, 0.75);
+    opacity    : 0.8;
+    text-align : left;
+    padding    : 1.5rem 0 5rem 0;
+    line-height: 180%
+}
+
+.header {
+    text-align    : left;
+    text-transform: uppercase;
+    color         : hsl(0, 0%, 95%);
+    font-size     : 2.5rem;
+    padding       : 1.5rem 0;
+    font-family   : 'Big Shoulders Display', cursive;
+}
+
+.button {
+    background     : hsl(0, 0%, 95%);
+    color          : black;
+    mix-blend-mode : screen;
+    text-decoration: none;
+    border-radius  : 2rem;
+    border         : 0.2rem solid hsl(0, 0%, 95%);
+    padding        : 0.5rem 1.5rem 0.6rem 1.5rem;
+    display        : inline-block;
+    font-size      : 1rem;
+}
+
+.button:hover {
+    background: none;
+    color     : hsl(0, 0%, 95%);
+}
+
+.icon {
+    padding: 1.5rem 0;
+}
+
+.attribution {
+    font-size : 11px;
+    text-align: center;
+    padding   : 10px 10px 0px 10px;
+    bottom    : 0;
+
+    /* Height of the footer*/
+    height: 40px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-device-width: 700px) {
+    .App {
+        width     : 70%;
+        min-width : 50%;
+        min-height: 100%;
+    }
+
+    .board {
+        display       : flex;
+        position      : fixed;
+        top           : 50%;
+        left          : 50%;
+        transform     : translate(-50%, -50%);
+        padding-bottom: 10rem;
+    }
+
+    .board .card {
+        flex-grow : 1;
+        width     : 30.5%;
+        min-width : 14rem;
+        min-height: 4.5rem;
+        padding   : 3rem;
+    }
+
+    .board .card:first-child {
+        border-radius: 0.6rem 0 0 0.6rem;
+    }
+
+    .board .card:last-child {
+        border-radius: 0 0.6rem 0.6rem 0;
+    }
+
+    .attribution {
+        position : fixed;
+        width    : 70%;
+        min-width: 50%;
+    }
+}
+
+@media screen and (max-device-width: 700px) {
+    .App {
+        padding: 20% 10% 0 10%
+    }
+
+    .board {
+        display       : block;
+        width         : 100%;
+        padding-bottom: 2rem;
+    }
+
+    .board .card {
+        padding: 2rem 3rem 3rem 3rem;
+    }
+
+    .board .card:first-child {
+        border-radius: 0.6rem 0.6rem 0 0;
+    }
+
+    .board .card:last-child {
+        border-radius: 0 0 0.6rem 0.6rem;
+    }
+
+}
