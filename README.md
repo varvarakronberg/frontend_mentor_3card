@@ -2,16 +2,7 @@
 
 This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). 
 
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Built with](#built-with)
- 
-## Overview
-
-### The challenge
+## The challenge
 
 Users should be able to:
 
@@ -22,8 +13,12 @@ Users should be able to:
 
 ![](./design/result.jpg)
 
+#### Link
 
-### Built with
+[LINK](https://varvara-react-3card.netlify.app/)
+
+
+##### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
