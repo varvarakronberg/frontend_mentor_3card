@@ -34,7 +34,7 @@ export default function App() {
         <div className="App">
             <Board data={data} />
             <footer className="attribution">
-                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+                Challenge by <a target="_blank" rel="noreferrer" href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
                 Coded by <a href="https://contra.com/varvara_kronberg/projects">Varvara</a>.
             </footer>
         </div>
